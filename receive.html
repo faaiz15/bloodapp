@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blood APP</title>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAfKbzHrxk0-5uMTZ02a_OqsQYZbePl1KU",
+      authDomain: "rough-a5697.firebaseapp.com",
+      databaseURL: "https://rough-a5697.firebaseio.com",
+      projectId: "rough-a5697",
+      storageBucket: "rough-a5697.appspot.com",
+      messagingSenderId: "200042737078"
+    };
+    firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+    <h1> BLOOD APP</h1>
+    <h1> Enter Name and blood Needed</h1> <br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="enter Name"><br>
+    <label for="blood">Blood:</label>
+    <input type="text" id="blood" placeholder="enter blood type"><br>
+    <button onclick="receive()">submit</button><br>
+    <a href="present_blood.html">available bloods</a>
+  <script src="./app.js"></script>  
+</body>
+</html>

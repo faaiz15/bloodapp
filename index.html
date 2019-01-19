@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>signup</title>
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+One advan
+    <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAfKbzHrxk0-5uMTZ02a_OqsQYZbePl1KU",
+      authDomain: "rough-a5697.firebaseapp.com",
+      databaseURL: "https://rough-a5697.firebaseio.com",
+      projectId: "rough-a5697",
+      storageBucket: "rough-a5697.appspot.com",
+      messagingSenderId: "200042737078"
+    };
+    firebase.initializeApp(config);
+</script>
+
+</head>
+<body>
+    <h1>signup</h1>
+    <div>
+<div>name <br>
+    <input type="text" id="email">
+</div>
+
+<div>password <br>
+    <input type="password" id="pass">
+</div>
+
+<button onclick="signup()"> signup</button>
+
+    </div>
+    <a href="./signin.html">Sign in</a>
+    <script src="./app.js "></script>
+
+</body>
+</html>
